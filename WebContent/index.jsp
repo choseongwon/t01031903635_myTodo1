@@ -43,6 +43,15 @@
 <ul class="main-list">
 </ul>
 
+<style>
+.normal-mode .edit-mode-item {
+  display:none;
+}
+
+.edit-mode .normal-mode-item {
+  display:none;
+}
+</style>
 
 <script>
 //기존 저장소에서 할일리스트를 가져온다.
